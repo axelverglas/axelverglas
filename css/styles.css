@@ -817,26 +817,19 @@ s,m,l = small, medium, large,
 }
 
 /* À propos */
-.about:before {
-	height: 70px;
-	display: block;
-	content: "";
-}
 .about .about-inner {
-	padding-left: 50px;
+	text-align: center;
+	margin: 30px 15px;
+	padding-left: 5px;
 }
 .about .about-inner .btn {
 	margin-top: 20px;
 }
 
 /* Home */
-.home:before {
-	height: 100px;
-	display: block;
-	content: "";
-}
 .home {
 	margin-top: 50px;
+	text-align: center;
 }
 
 .home h1 {
@@ -892,8 +885,8 @@ s,m,l = small, medium, large,
     border-radius: 50%;
 }
 .home .photo-bordure {
-	height: 400px;
-    width: 400px;
+	height: 320px;
+    width: 320px;
     border: 20px solid rgba(0, 0, 0, 0.07);
     margin: 0 auto;
     border-radius: 50%;
@@ -922,11 +915,6 @@ s,m,l = small, medium, large,
 }
 
 /* Compétences */
-.competences:before {
-	height: 85px;
-	display: block;
-	content: "";
-}
 .box {
     padding: 20px;
     border-radius: 4px;
@@ -952,103 +940,23 @@ s,m,l = small, medium, large,
     margin-top: 16px;
 }
 
-.box li, p {
+.competences .box li, p {
 	font-size: 14px;
 }
-
-
-/* Expériences */
-.experiences:before {
-	height: 85px;
-	display: block;
-	content: "";
-}
-.experiences .time-line {
-    padding-left: 0;
-    margin-bottom: 24px; 
-}
-.experiences .time-line-item {
-    line-height: 0;
-    padding-left: 40px;
-    padding-bottom: 24px;
-    position: relative; 
-}
-.experiences .time-line-item::before {
-    content: "";
-    display: block;
-    position: absolute;
-    height: 100%;
-    left: 5px;
-    transform: translateX(-50%);
-    width: 3px;
-    background-color: rgb(231, 231, 231); 
-    border-radius: 10px;
-}
-.experiences .time-line-item::after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 20px;
-    left: 0px;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #2196F3; 
-}
-.experiences .time-line-item .badge {
-    font-size: 12px;
-    padding: 6px 10px;
-    line-height: 1;
-    border-radius: 2px;
-	margin-bottom: 8px; 
-}
-.experiences .time-line-item-title {
-    line-height: 1;
-    margin-top: 15px;
-    margin-bottom: 2px; 
-}
-.experiences .time-line-item-subtitle {
-    line-height: 1.6;
-    color: #a7a7a7;
-    margin-bottom: 3px; 
-}
-.experiences .time-line-item-content {
-    line-height: 1.6;
-    margin-bottom: 0; 
-}
-.badge-primary {
-    color: #ffffff;
-    background-color: #2196F3;
-}
-.box-left {
-	padding-right: 50px;
-}
-.box-right {
-	padding-left: 50px;
-}
-.experiences .box {
-    padding: 20px;
-    border-radius: 4px;
-    box-shadow: 0px 10px 20px 4px #00000015;
-    height: auto;
-    width: auto;
-}
-
-
-.realisations:before {
-	height: 85px;
-	display: block;
-	content: "";
+.competences .box {
+	text-align: center;
 }
 
 .realisations figure {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .realisations figure img {
   position: relative;
+  height: 200px;
   width: 100%;
   display: block;
 }
@@ -1183,7 +1091,7 @@ s,m,l = small, medium, large,
   color: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #2196F3;
+  background-color: rgba(33, 150, 243, 0.5);
 }
 
 .realisations figure:hover figcaption:after {
@@ -1325,6 +1233,45 @@ s,m,l = small, medium, large,
 	        -ms-flex-align: center;
 	                -ms-grid-row-align: center;
 	            align-items: center;
+	}
+	/* main */
+	/*------------------------*/
+	.home:before {
+	height: 100px;
+	display: block;
+	content: "";
+	}
+	.home .photo-bordure {
+	height: 400px;
+    width: 400px;
+    }
+    .home {
+    	text-align: left;
+    }
+    .about:before {
+	height: 70px;
+	display: block;
+	content: "";
+	}
+	.competences:before {
+	height: 85px;
+	display: block;
+	content: "";
+	}
+	.realisations:before {
+	height: 85px;
+	display: block;
+	content: "";
+	}
+	.about .about-inner {
+	padding-left: 50px;
+	}
+	.about .about-inner{
+		text-align: left;
+		margin: 0;
+	}
+	.competences .box {
+		text-align: left;
 	}
 }/* end of Desktop view */
 /*-----------------------------*/
