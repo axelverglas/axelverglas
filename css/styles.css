@@ -87,21 +87,7 @@ audio {
 iframe {
 	border:none;
 }
-/* iframe RWD */
-/*------------------------*/
-.box-iframe {
-	position: relative;
-	height: 0;
-	padding-bottom: 56.25%; /* format 16/9*/
-}
-.box-iframe iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	border: none;
-}
+
 /* helpers */
 /*------------------------*/
 
@@ -135,21 +121,6 @@ iframe {
 .overflow {
 	overflow: hidden;
 }
-.bg-white {
-	background-color: #fff;
-}
-.bg-light {
-	background-color: #ededed;
-	padding: 20px;
-}
-.bg-medium {
-	background-color: #898989;
-	padding: 20px;
-}
-.bg-dark {
-	background-color: #343434;
-	padding: 20px;
-}
 
 .ul-clean {
 	list-style-type: none;
@@ -159,43 +130,11 @@ iframe {
 .no-underline {
 	text-decoration: none;
 }
-.txt-left {
-	text-align: left;
-}
 
 .txt-center {
 	text-align: center;
 }
 
-.txt-right {
-	text-align: right;
-}
-
-.txt-upper {
-	text-transform: uppercase;
-}
-.txt-ital {
-	font-style: italic;
-}
-.txt-light {
-	color: #ededed;
-}
-.txt-medium {
-	color: #898989;
-}
-.txt-dark {
-	color: #343434;
-}
-
-.txt-thin {
-	font-weight:300;
-}
-.txt-regular {
-	font-weight:400;
-}
-.txt-bold {
-	font-weight:700;
-}
 
 /*
 m = margin
@@ -242,15 +181,6 @@ s,m,l = small, medium, large,
 	margin-bottom: 60px;
 }
 
-.v-top {
-	vertical-align: top;
-}
-.v-middle {
-	vertical-align: middle;
-}
-.v-bottom {
-	vertical-align: bottom;
-}
 /* buttons */
 /*------------------------*/
 .btn {
