@@ -734,17 +734,11 @@ s,m,l = small, medium, large,
 	text-align: center;
 }
 
-.btn-full {
+.btn-center {
 	display: flex;
 	align-items: center;
-	color: #222;
-    background-color: white;
-    border: #222 2px solid;
 }
-.btn-full:hover{
-    background-color: #222;
-    color: white;
-}
+
 
 /* À propos */
 .about .about-inner {
