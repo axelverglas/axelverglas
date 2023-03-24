@@ -21,3 +21,5 @@
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=axelverglas&show_icons=true&locale=en&layout=compact" alt="axelverglas" /></p>
 
+<a href="https://app.daily.dev/axelvrgls"><img src="https://api.daily.dev/devcards/d6e10b946d50437b8c0c6a716b0315a5.png?r=928" width="400" alt="Axel Verglas's Dev Card"/></a>
+
