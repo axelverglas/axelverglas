@@ -5,7 +5,6 @@
 </div>
 
 <a href="https://app.daily.dev/axelvrgls"><img align='right' src="https://github.com/axelverglas/axelverglas/blob/main/devcard.svg" width="300" alt="Axel Verglas's Dev Card"/></a>
-</br></br>
 
 <h2>About</h2>
 
@@ -22,6 +21,7 @@
 <h2>Connect with me</h2>
 <a href="https://linkedin.com/in/axelverglas" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="axelverglas" height="30" width="40" /></a>
 
+</br></br>
 </br></br>
 
 <h2 align="center">Languages and Tools:</h2>
