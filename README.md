@@ -4,7 +4,7 @@
   <p> <img src="https://komarev.com/ghpvc/?username=axelverglas&label=Profile%20views&color=0e75b6&style=flat" alt="axelverglas" /> </p>
 </div>
 
-<a href="https://app.daily.dev/axelvrgls"><img align='right' src="https://github.com/axelverglas/axelverglas/blob/main/devcard.svg" width="300" alt="Axel Verglas's Dev Card"/></a>
+<a href="https://app.daily.dev/axelvrgls"><img align='right' src="https://github.com/axelverglas/axelverglas/blob/main/devcard.png" width="300" alt="Axel Verglas's Dev Card"/></a>
 
 <h2>About</h2>
 
