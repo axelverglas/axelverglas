@@ -28,7 +28,7 @@
 </br></br>
 
 <div align="center">
-<h2>My Github stats</h2>
+<h2>My stats</h2>
+<a href="https://app.daily.dev/axelvrgls"><img src="https://github.com/axelverglas/axelverglas/blob/main/devcard.png" width="200" alt="Axel Verglas's Dev Card"/></a>
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=axelverglas&show_icons=true&locale=en&layout=compact" alt="axelverglas" />
-<a href="https://app.daily.dev/axelvrgls"><img align='right' src="https://github.com/axelverglas/axelverglas/blob/main/devcard.png" width="300" alt="Axel Verglas's Dev Card"/></a>
 </div>
