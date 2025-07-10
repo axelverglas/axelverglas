@@ -8,7 +8,7 @@
 
 - 🔭 I’m currently working on [Rock U Support](https://rockusupport.com/)
 
-- 🌱 I’m currently learning **Angular, K8s**
+- 🌱 I’m currently learning **Machine learning**
 
 - 👨‍💻 All of my projects are available at [https://www.axelverglas.fr](https://www.axelverglas.fr)
 
